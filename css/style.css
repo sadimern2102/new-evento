@@ -1,0 +1,1240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  padding: 55px 0;
+}
+
+.section-title p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* =====================================
+                Header Part Start
+=======================================*/
+#header-part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.4);
+}
+
+nav ul {
+  padding: 20px 0;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  display: inline-block;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  transition: 0.4s !important;
+}
+
+nav ul li a:hover {
+  color: #ffe169;
+}
+
+nav ul li ul {
+  background-color: #ffe169 !important;
+  border: none !important;
+}
+
+nav ul li ul li {
+  margin-right: 0 !important;
+}
+
+nav ul li ul li a {
+  color: #0f2f44 !important;
+}
+
+nav ul li ul li a:hover {
+  background-color: #fff !important;
+}
+
+nav .button a {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f2f44;
+  background: linear-gradient(90deg, #ffe169, #ffa913);
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+/* =====================================
+                Header Part End
+=======================================*/
+
+/* =====================================
+                Banner Part Start
+=======================================*/
+#banner-part {
+  background: url(../images/banner.png) no-repeat center;
+  background-size: cover;
+}
+
+#banner-part .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(110, 6, 174, 0.6);
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+  position: relative;
+  padding-top: 250px;
+}
+
+#banner-part .overlay p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 15px;
+}
+
+#banner-part .overlay h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  width: 600px;
+  margin: 0 auto;
+  /* padding-bottom: 103px; */
+}
+
+#banner-part .overlay .banner-countdown {
+  display: flex;
+  width: 650px;
+  margin: 0 auto;
+}
+
+#banner-part .overlay .banner-countdown .time {
+  flex-basis: 25%;
+  margin-top: 100px;
+}
+
+#banner-part .overlay .banner-countdown .time p {
+  background: linear-gradient(0deg, #ffe169, #ffa201);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  letter-spacing: 15px;
+}
+
+#banner-part .overlay .banner-countdown .text:nth-child(even) {
+  background: linear-gradient(180deg, #ffe169, #ffa201);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#banner-part .overlay .banner-countdown .time .text {
+  font-family: Barlow Condensed, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0;
+  transform: rotate(269deg);
+  position: relative;
+  top: -70px;
+  right: -70px;
+}
+
+#banner-part .overlay .video {
+  position: absolute;
+  top: 72%;
+  right: 5%;
+  color: #fff;
+  font-family: Barlow Condensed, sans-serif;
+  font-size: 20px;
+  line-height: 4;
+}
+
+#banner-part .overlay .video i {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+  background: linear-gradient(90deg, #ffe169, #ffa201);
+  margin-left: 10px;
+}
+
+/* =====================================
+                Banner Part End
+=======================================*/
+
+/* =====================================
+                About Part Start
+=======================================*/
+#about-part .dot .img {
+  position: relative;
+}
+
+#about-part .dot .img .dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#about-part .dot .img .shape {
+  position: absolute;
+  top: 100px;
+  right: 63%;
+}
+
+#about-part .about-slider {
+  padding-top: 100px;
+  position: relative;
+}
+
+#about-part .carousel-inner {
+  position: relative;
+  height: 520px;
+}
+
+#about-part .carousel-inner .festive1 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+#about-part .carousel-indicators {
+  position: absolute;
+  bottom: -15px;
+  left: -13%;
+}
+
+#about-part .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 2px solid hsla(0, 4%, 22%, 0.4);
+  border-radius: 50%;
+}
+
+#about-part .carousel-indicators .active {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to right, #ffe169, #ffa913);
+  border: none;
+}
+
+#about-part .col-lg-7 {
+  padding-top: 100px;
+}
+
+#about-part .col-lg-3 {
+  text-align: center;
+}
+
+#about-part h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  background: url(../images/textshape.png) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: 50%;
+  line-height: 1;
+}
+
+#about-part p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0f2f44;
+}
+
+#about-part .col-lg-9 h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f2f44;
+  text-transform: uppercase;
+  width: 293px;
+}
+
+#about-part .volume {
+  margin-bottom: 15px;
+}
+
+#about-part .col-lg-9 p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  color: #444444;
+  text-align: left;
+  width: 450px;
+}
+
+#about-part .location {
+  display: flex;
+  border-top: 1px solid #f1f1f1;
+  padding-top: 35px;
+}
+
+#about-part .location .address {
+  width: 60%;
+  position: relative;
+}
+
+#about-part .location .address img {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#about-part .location .address p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  color: #222;
+  line-height: 26px;
+  margin-bottom: 25px;
+  margin-left: 60px;
+  font-weight: 400;
+  width: 220px;
+}
+
+#about-part .location .numbers {
+  width: 40%;
+  position: relative;
+}
+
+#about-part .location .numbers img {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#about-part .location .numbers p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  color: #222;
+  line-height: 26px;
+  margin-bottom: 25px;
+  margin-left: 60px;
+  font-weight: 400;
+  width: 140px;
+}
+/* =====================================
+                About Part End
+=======================================*/
+
+/* =====================================
+                Speaker Part Start
+=======================================*/
+#speaker-part {
+  background: url(../images/speakerbg.png) no-repeat center;
+  background-size: cover;
+  margin-top: 120px;
+}
+
+#speaker-part .col-lg-6 {
+  margin-bottom: 70px;
+}
+
+#speaker-part .speaker {
+  display: flex;
+}
+
+#speaker-part .speaker .image {
+  flex-basis: 40%;
+}
+
+#speaker-part .speaker .details {
+  flex-basis: 60%;
+}
+
+#speaker-part .speaker .details .time {
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: #0f2f44;
+  padding: 12px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#speaker-part .speaker .details .time p {
+  background: linear-gradient(to bottom, #ffa913, #ffe169);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#speaker-part .speaker .details .intro h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #fff;
+}
+
+#speaker-part .speaker .details .intro p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+#speaker-part .speaker .details .social-icon {
+  position: relative;
+}
+
+#speaker-part .speaker .details .follow {
+  background: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -55px;
+  left: -100px;
+}
+
+#speaker-part .speaker .details .follow span {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #0f2f44;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 64px;
+  position: relative;
+}
+
+#speaker-part .speaker .details .follow span::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 60px;
+  /* transform: translateY(-50%); */
+  width: 50px;
+  height: 1px;
+  background: #999;
+}
+
+#speaker-part .speaker .details .follow a {
+  display: inline-block;
+}
+
+#speaker-part .speaker .details .follow i {
+  color: #999999;
+  font-size: 16px;
+  margin-left: 20px;
+  transition: all linear 0.4s;
+}
+
+#speaker-part .speaker .details .follow i:hover {
+  color: #0056b3;
+}
+/* =====================================
+                Speaker Part End
+=======================================*/
+
+/* =====================================
+                Event Part Start
+=======================================*/
+#event-part .event-title {
+  color: #0f2f44;
+}
+
+#event-part .event-main {
+  height: 800px;
+}
+
+#event-part .item {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.54);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.54);
+  background: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#event-part .item:hover {
+  background: #0f2f44;
+}
+
+#event-part .item h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 32px;
+  color: #0f2f44;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  font-weight: 500;
+  line-height: 1.2;
+  transition: 0.4s;
+}
+
+#event-part .item:hover h3 {
+  color: #fff;
+}
+
+#event-part .item .event-location {
+  display: flex;
+}
+
+#event-part .item .event-location .event-add {
+  position: relative;
+  width: 50%;
+}
+
+#event-part .item .event-location .event-add::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 8%;
+  width: 1px;
+  height: 50px;
+  background-color: #c7c7c7;
+}
+
+#event-part .item .event-location .event-add:last-child::before {
+  opacity: 0;
+}
+
+#event-part .item .event-location .event-add .loc-img {
+  position: relative;
+}
+
+#event-part .item .event-location .event-add .loc-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+}
+
+#event-part .item .event-location .event-add .loc-text {
+  position: relative;
+}
+
+#event-part .item .event-location .event-add .loc-text p {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #0f2f44;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  transition: 0.4s;
+}
+
+#event-part .item .event-location .event-add .phone p {
+  width: 150px;
+}
+
+#event-part .item:hover .event-location .event-add .loc-text p {
+  color: #fff;
+}
+
+#event-part .item .button {
+  position: relative;
+}
+
+#event-part .item .button a {
+  display: inline-block;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #0f2f44;
+  background: linear-gradient(#ffe169, #ffa913);
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  right: -25%;
+  transform: translateX(-50%);
+}
+
+.nicescroll-cursors {
+  height: 50px !important;
+  left: 6px;
+}
+
+.nicescroll-rails {
+  width: 3px !important;
+  opacity: 1 !important;
+  top: 2792px !important;
+  height: 750px !important;
+}
+/* =====================================
+                Event Part End
+=======================================*/
+
+/* =====================================
+                Gallery Part Start
+=======================================*/
+#gallery-part {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#gallery-part .gallery-shape {
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  overflow: hidden;
+  width: 435px;
+  z-index: -1;
+}
+
+#gallery-part .gallery-dot {
+  position: absolute;
+  bottom: -130px;
+  right: 110px;
+  z-index: -1;
+}
+
+#gallery-part .gallery-title {
+  color: #0f2f44;
+}
+
+#gallery-part .gallery-img {
+  position: relative;
+  margin: 0 5px;
+}
+
+#gallery-part .gallery-img img {
+  width: 100%;
+}
+
+#gallery-part .gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(110, 7, 174, 0.7),
+    rgb(75, 119, 205, 0.7)
+  );
+  opacity: 0;
+  transition: 0.4s;
+}
+
+#gallery-part .gallery-overlay a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#gallery-part .gallery-overlay i {
+  font-size: 40px;
+  font-weight: 100;
+  color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#gallery-part .gallery-img:hover .gallery-overlay {
+  opacity: 1;
+}
+
+#gallery-part .gallery-button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#gallery-part .gallery-button a {
+  font-family: "Barlow Condensed", sans-serif;
+  padding: 12px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0f2f44;
+  background: linear-gradient(#ffe169, #ffa913);
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+/* =====================================
+                Gallery Part End
+=======================================*/
+
+/* =====================================
+                Feedback Part Start
+=======================================*/
+#feedback-part {
+  position: relative;
+}
+
+#feedback-part .feed-shape {
+  position: absolute;
+  top: -200px;
+  left: -25%;
+}
+
+#feedback-part .feed-dot {
+  position: absolute;
+  top: 70%;
+  left: 0;
+}
+
+#feedback-part .feed-title {
+  color: #0f2f44;
+}
+
+#feedback-part .feed-slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+#feedback-part .feed-slider .item {
+  width: 49%;
+  margin: 0 10px;
+}
+
+#feedback-part .feed-slider .feed-details {
+  text-align: center;
+  padding: 50px 22px;
+  background: #fefefe;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+#feedback-part .feed-slider .feed-details .feed-text {
+  font-size: 26px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #444;
+}
+
+#feedback-part .feed-slider .feed-details .image {
+  margin: 25px 0 20px;
+  position: relative;
+}
+
+#feedback-part .feed-slider .feed-details .image img {
+  margin: 0 auto;
+}
+
+#feedback-part .feed-slider .feed-details .image .icon {
+  display: inline-block;
+  background: #fff;
+  padding: 8px 20px;
+  border-radius: 28px;
+  position: absolute;
+  top: 22px;
+  right: 65px;
+  box-shadow: 3px 0 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+#feedback-part .feed-slider .feed-details .image .icon i {
+  color: #ffa913;
+  font-size: 20px;
+  margin: 0 1px;
+}
+
+#feedback-part .feed-slider .feed-details h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+#feedback-part .feed-slider .feed-details .designation {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #999999;
+}
+
+#feedback-part .prev {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  background: linear-gradient(to bottom, #ffe169, #ffa913);
+  color: #0f2f44;
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#feedback-part .next {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  background: linear-gradient(to bottom, #ffe169, #ffa913);
+  color: #0f2f44;
+  position: absolute;
+  top: 50%;
+  right: -80px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* =====================================
+                Feedback Part End
+=======================================*/
+
+/* =====================================
+                Price Part Start
+=======================================*/
+#price-part {
+  margin-bottom: 50px;
+}
+
+#price-part .price-title {
+  color: #0f2f44;
+}
+
+#price-part .price-slider .price-item {
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  top: 1px;
+  left: 0;
+  margin: 20px 20px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+#price-part .price-slider .price-item .back-img {
+  position: absolute;
+  top: 12px;
+  left: -24px;
+  width: 100%;
+  height: 98%;
+  background-color: #fff;
+  z-index: -1;
+  margin: 10px 10px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#price-part .price-slider .price-item .pricing-shape1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#price-part .price-slider .price-item .pricing-shape2 {
+  position: absolute;
+  bottom: -9px;
+  left: -13px;
+}
+
+#price-part .price-slider .price-item h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 32px;
+  color: #0f2f44;
+  margin-bottom: 5px;
+}
+
+#price-part .price-slider .price-item h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #ffa913, #ffe169);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+#price-part .price-slider .price-item ul {
+  padding-left: 0;
+}
+
+#price-part .price-slider .price-item ul li {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  color: #444444;
+  margin-bottom: 10px;
+}
+
+#price-part .form-part {
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+#price-part .form-part h2 {
+  display: inline-block;
+  font-family: "Barlow Condensed", sans-serif;
+  width: 54%;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffa913;
+  margin-bottom: 30px;
+}
+
+#price-part .form-part .fname {
+  width: 48%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  color: #999;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  margin-right: 23px;
+}
+
+#price-part .form-part .lname {
+  width: 48%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  color: #999;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+#price-part .form-part .email {
+  width: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  color: #999;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+#price-part .form-part .number {
+  width: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  color: #999;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  -moz-appearance: textfield;
+}
+
+#price-part .form-part .plan {
+  width: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  color: #999;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+#price-part .form-part .payment {
+  margin-top: 20px;
+  display: flex;
+}
+
+#price-part .form-part .payment h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  color: #222222;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+#price-part .form-part .payment-img {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#price-part .form-part form {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 35px;
+}
+
+#price-part .form-part form .check {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* #price-part .form-part .check::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -28px;
+  width: 15px;
+  height: 15px;
+  background: #cccccc;
+  border-radius: 2px;
+} */
+
+#price-part .form-part button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(90deg, #ffe169, #ffa913);
+  border: 0;
+  color: #0f2f44;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#price-part .pricing-border {
+  width: 100%;
+  height: 1px;
+  background: #f1f1f1;
+  margin-top: 55px;
+}
+
+#price-part .prev {
+  font-size: 24px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  background: linear-gradient(to bottom, #ffe169, #ffa913);
+  color: #0f2f44;
+  position: absolute;
+  top: 46%;
+  left: -80px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#price-part .next {
+  font-size: 24px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  background: linear-gradient(to bottom, #ffe169, #ffa913);
+  color: #0f2f44;
+  position: absolute;
+  top: 62%;
+  left: -80px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* =====================================
+                Price Part End
+=======================================*/
+
+/* =====================================
+                Sponsor Part Start
+=======================================*/
+#sponsor-part {
+  margin-bottom: 100px;
+}
+
+#sponsor-part .sponsor-title {
+  color: #0f2f44;
+  padding-top: 0;
+}
+
+#sponsor-part .brand {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#sponsor-part .brand img {
+  border: 1px solid #eee;
+  padding: 40px 20px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+#sponsor-part .brand img:hover {
+  background: #f5f5f5;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+/* =====================================
+                Sponsor Part End
+=======================================*/
+
+/* =====================================
+                Footer Part Start
+=======================================*/
+#footer-part {
+  background: url(../images/footer-bg.png) no-repeat left;
+  background-size: cover;
+}
+
+#footer-part .footer-title {
+  padding-bottom: 20px;
+}
+
+#footer-part .footer-widget {
+  text-align: center;
+}
+
+#footer-part .footer-widget form {
+  position: relative;
+}
+
+#footer-part .footer-widget input {
+  width: 100%;
+  padding-left: 20px;
+  font-size: 18px;
+  background: #ffffff;
+  color: #999999;
+  border: 0;
+  border-radius: 5px;
+  height: 56px;
+}
+
+#footer-part .footer-widget button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 160px;
+  height: 100%;
+  background: linear-gradient(90deg, #ffe169, #ffa913);
+  border: 0;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#footer-part .footer-widget .footer-icon {
+  margin: 60px 0 30px;
+}
+
+#footer-part .footer-widget .footer-icon a {
+  color: #007bff;
+}
+
+#footer-part .footer-widget .footer-icon i {
+  font-size: 20px;
+  color: #0f2f44;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 4px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#footer-part .footer-widget .footer-icon i:hover {
+  background: linear-gradient(90deg, #ffe169, #ffa913);
+}
+
+#footer-part .footer-widget .footer-menu {
+  margin-bottom: 30px;
+}
+
+#footer-part .footer-widget .footer-menu ul li {
+  display: inline-block;
+}
+
+#footer-part .footer-widget .footer-menu ul li a {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0 15px;
+  transition: 0.4s;
+}
+
+#footer-part .footer-widget .footer-menu ul li a:hover {
+  color: #ffe169;
+}
+
+#footer-part .copyright {
+  text-align: center;
+  border-top: 1px solid #1f3b4d;
+  padding: 25px;
+}
+
+#footer-part .copyright p {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+/* =====================================
+                Footer Part End
+=======================================*/
